@@ -10,15 +10,7 @@ export default {
 const Template: ComponentStory<typeof Page> = (args) => <Page {...args} />;
 
 export const LoggedIn = Template.bind({});
-LoggedIn.args = {
-  leftPage: "hello left",
-  middlePage: "hello middle",
-  rightPage: "hello right",
-};
+LoggedIn.args = {};
 
 export const LoggedOut = Template.bind({});
-LoggedOut.args = {
-  leftPage: "hello left",
-  middlePage: "hello middle",
-  rightPage: "hello right",
-};
+LoggedOut.args = {};
